@@ -58,6 +58,7 @@ export default function LandingPage() {
             tag="Ambulante Intensivpflege"
             buttons={[
               { text: "Erstberatung vereinbaren", href: "#contact" },
+              { text: "Als Pflegekraft bewerben", href: "#contact" },
             ]}
           />
         </div>
