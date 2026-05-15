@@ -38,7 +38,7 @@ export default function LandingPage() {
         { name: "Team", id: "#team" },
         { name: "Kontakt", id: "#contact" },
       ]}
-      brandName="Pflegedienst "
+      brandName="Ihr Pflegedienst "
     />
   </div>
 
@@ -55,7 +55,7 @@ export default function LandingPage() {
         { imageSrc: "https://img.b2bpic.net/premium-photo/holding-hands-nurse-senior-woman-wheelchair-with-help-support-health-wellness_1176719-1023.jpg?id=237862665", imageAlt: "Atmungstherapie" },
         { imageSrc: "https://img.b2bpic.net/free-photo/african-social-worker-taking-care-senior-woman_23-2149031346.jpg?id=16137216", imageAlt: "Pflegequalität" },
       ]}
-      tag="Intensivpflege Hamburg"
+      tag="Intensivpflege {hier kann Ihre Stadt stehen}"
       buttons={[
         { text: "Erstberatung vereinbaren", href: "#contact" },
       ]}
@@ -66,7 +66,7 @@ export default function LandingPage() {
                 { icon: CheckCircle2, text: "Anerkannt von allen gesetzlichen Krankenkassen" },
                 { icon: ShieldCheck, text: "Alle Pflegegrade" },
                 { icon: Clock, text: "24/7 erreichbar" },
-                { icon: MapPin, text: "Seit 2025 in Hamburg" }
+                { icon: MapPin, text: "Seit 2025 in ...." }
             ].map((item, idx) => (
                 <div key={idx} className="flex items-center gap-3">
                     <item.icon className="w-5 h-5 text-[var(--primary-cta)] flex-shrink-0" />
@@ -145,7 +145,7 @@ export default function LandingPage() {
         { id: "m2", name: "Markus K.", role: "Intensivpflegefachkraft", imageSrc: "https://img.b2bpic.net/free-photo/smile-happiness-nurse-medical-arab-strong_1291-31.jpg?id=1240914" },
         { id: "m3", name: "Elena V.", role: "Pflegerin", imageSrc: "https://img.b2bpic.net/free-photo/portrait-smiling-nurse-looking-camera-while-standing-clinic_637285-5031.jpg?id=26143709" },
       ]}
-      title="Ihr Team in Hamburg"
+      title="Ihr Team von Pflegedienst"
       description="Erfahrene Hände für Ihre Gesundheit."
     />
   </div>
@@ -181,7 +181,7 @@ export default function LandingPage() {
           { items: [{ label: "Über uns", href: "#about" }, { label: "Leistungen", href: "#services" }] },
           { items: [{ label: "Karriere", href: "#" }, { label: "Impressum", href: "#" }] }
       ]}
-      logoText="Pflegedienst Hamburg"
+      logoText="Pflegedienst"
     />
   </div>
       </ReactLenis>
