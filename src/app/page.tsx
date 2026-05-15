@@ -12,7 +12,8 @@ import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import TeamCardSix from '@/components/sections/team/TeamCardSix';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
-import { CheckCircle2, ShieldCheck, Clock, MapPin } from "lucide-react";
+import FeatureBorderGlow from '@/components/sections/feature/featureBorderGlow/FeatureBorderGlow';
+import { CheckCircle, Heart, Users, Clock } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -60,21 +61,22 @@ export default function LandingPage() {
         { text: "Erstberatung vereinbaren", href: "#contact" },
       ]}
     />
-    <div className="bg-[var(--card)] py-6 border-b border-[var(--accent)]">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-6 text-sm text-[var(--foreground)]">
-            {[ 
-                { icon: CheckCircle2, text: "Anerkannt von allen gesetzlichen Krankenkassen" },
-                { icon: ShieldCheck, text: "Alle Pflegegrade" },
-                { icon: Clock, text: "24/7 erreichbar" },
-                { icon: MapPin, text: "Seit 2025 in Hamburg" }
-            ].map((item, idx) => (
-                <div key={idx} className="flex items-center gap-3">
-                    <item.icon className="w-5 h-5 text-[var(--primary-cta)] flex-shrink-0" />
-                    <span className="font-medium">{item.text}</span>
-                </div>
-            ))}
-        </div>
-    </div>
+  </div>
+
+  <div id="trust" data-section="trust">
+    <FeatureBorderGlow
+      title="Warum Sie uns vertrauen können"
+      description="Vier Kernversprechen, die unsere Arbeit als Hamburger Pflegedienst definieren."
+      animationType="slide-up"
+      textboxLayout="default"
+      useInvertedBackground={true}
+      features={[
+        { icon: Heart, title: "Herzliche Betreuung", description: "Wir behandeln jeden Patienten wie unser eigenes Familienmitglied." },
+        { icon: Users, title: "Erfahrenes Team", description: "Hochqualifizierte Fachkräfte mit langjähriger Expertise in der Intensivpflege." },
+        { icon: Clock, title: "24/7 Präsenz", description: "Rund um die Uhr an Ihrer Seite, wenn es darauf ankommt." },
+        { icon: CheckCircle, title: "Geprüfte Qualität", description: "Höchste medizinische Standards und volle Transparenz bei der Abrechnung." }
+      ]}
+    />
   </div>
 
   <div id="about" data-section="about">
