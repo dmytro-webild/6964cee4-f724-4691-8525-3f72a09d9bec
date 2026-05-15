@@ -61,8 +61,8 @@ export default function LandingPage() {
       background={{
         variant: "gradient-bars",
       }}
-      title="Professional Intensity Care in Hamburg"
-      description="Individuelle 1:1 Intensivpflege und respiratorische Unterstützung in Hamburg. Unser Ziel ist Ihre Lebensqualität in gewohnter Umgebung."
+      title="Pflege, die zuhause das Leben leichter macht."
+      description="Wir betreuen Menschen in Hamburg in ihrer eigenen Wohnung – mit der Ruhe, dem Respekt und der Fachkompetenz, die Familien für ihre Angehörigen suchen."
       leftCarouselItems={[
         {
           imageSrc: "http://img.b2bpic.net/free-photo/watercolor-hospital-health-care-illustration_23-2151621096.jpg",
