@@ -12,7 +12,7 @@ import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import TeamCardSix from '@/components/sections/team/TeamCardSix';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
-import { CheckCircle2, ShieldCheck, Clock, MapPin } from "lucide-react";
+import { CheckCircle2, ShieldCheck, Clock, MapPin, HandHeart, Ear, Users, FileCheck } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -60,21 +60,23 @@ export default function LandingPage() {
         { text: "Erstberatung vereinbaren", href: "#contact" },
       ]}
     />
-    <div className="bg-[var(--card)] py-6 border-b border-[var(--accent)]">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-6 text-sm text-[var(--foreground)]">
-            {[ 
-                { icon: CheckCircle2, text: "Anerkannt von allen gesetzlichen Krankenkassen" },
-                { icon: ShieldCheck, text: "Alle Pflegegrade" },
-                { icon: Clock, text: "24/7 erreichbar" },
-                { icon: MapPin, text: "Seit 2025 in ...." }
-            ].map((item, idx) => (
-                <div key={idx} className="flex items-center gap-3">
-                    <item.icon className="w-5 h-5 text-[var(--primary-cta)] flex-shrink-0" />
-                    <span className="font-medium">{item.text}</span>
-                </div>
-            ))}
-        </div>
-    </div>
+  </div>
+
+  <div id="trust" data-section="trust" className="py-12 bg-[var(--card)]">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
+          {[
+              { icon: HandHeart, title: "Entlastung für die Familie", text: "Wir schenken Angehörigen die Freiheit, sich wieder auf das Wesentliche zu konzentrieren." },
+              { icon: Ear, title: "Wir hören erst zu", text: "Ihr Bedarf und Ihre Wünsche stehen im Mittelpunkt unseres Handelns." },
+              { icon: Users, title: "Liebevolle Pflegekräfte", text: "Unser Team überzeugt durch menschliche Wärme und höchste fachliche Expertise." },
+              { icon: FileCheck, title: "Abrechnung über die Krankenkasse", text: "Wir unterstützen Sie vollumfänglich bei allen bürokratischen Prozessen." }
+          ].map((item, i) => (
+              <div key={i} className="group flex flex-col items-center text-center p-6 bg-[var(--background)] rounded-xl border border-[var(--accent)] transition-transform hover:-translate-y-2 hover:shadow-lg">
+                  <item.icon className="w-10 h-10 mb-4 text-[var(--primary-cta)]" />
+                  <h3 className="font-semibold mb-2 text-[var(--foreground)]">{item.title}</h3>
+                  <p className="text-sm text-[var(--foreground)] opacity-80">{item.text}</p>
+              </div>
+          ))}
+      </div>
   </div>
 
   <div id="about" data-section="about">
