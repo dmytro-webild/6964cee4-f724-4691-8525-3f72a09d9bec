@@ -12,8 +12,7 @@ import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import TeamCardSix from '@/components/sections/team/TeamCardSix';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
-import FeatureBorderGlow from '@/components/sections/feature/featureBorderGlow/FeatureBorderGlow';
-import { CheckCircle, Heart, Users, Clock } from "lucide-react";
+import { CheckCircle2, ShieldCheck, Clock, MapPin } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -39,7 +38,7 @@ export default function LandingPage() {
         { name: "Team", id: "#team" },
         { name: "Kontakt", id: "#contact" },
       ]}
-      brandName="Pflegedienst "
+      brandName="Ihr Pflegedienst "
     />
   </div>
 
@@ -56,27 +55,26 @@ export default function LandingPage() {
         { imageSrc: "https://img.b2bpic.net/premium-photo/holding-hands-nurse-senior-woman-wheelchair-with-help-support-health-wellness_1176719-1023.jpg?id=237862665", imageAlt: "Atmungstherapie" },
         { imageSrc: "https://img.b2bpic.net/free-photo/african-social-worker-taking-care-senior-woman_23-2149031346.jpg?id=16137216", imageAlt: "Pflegequalität" },
       ]}
-      tag="Intensivpflege Hamburg"
+      tag="Intensivpflege {hier kann Ihre Stadt stehen}"
       buttons={[
         { text: "Erstberatung vereinbaren", href: "#contact" },
       ]}
     />
-  </div>
-
-  <div id="trust" data-section="trust">
-    <FeatureBorderGlow
-      title="Warum Sie uns vertrauen können"
-      description="Vier Kernversprechen, die unsere Arbeit als Hamburger Pflegedienst definieren."
-      animationType="slide-up"
-      textboxLayout="default"
-      useInvertedBackground={true}
-      features={[
-        { icon: Heart, title: "Herzliche Betreuung", description: "Wir behandeln jeden Patienten wie unser eigenes Familienmitglied." },
-        { icon: Users, title: "Erfahrenes Team", description: "Hochqualifizierte Fachkräfte mit langjähriger Expertise in der Intensivpflege." },
-        { icon: Clock, title: "24/7 Präsenz", description: "Rund um die Uhr an Ihrer Seite, wenn es darauf ankommt." },
-        { icon: CheckCircle, title: "Geprüfte Qualität", description: "Höchste medizinische Standards und volle Transparenz bei der Abrechnung." }
-      ]}
-    />
+    <div className="bg-[var(--card)] py-6 border-b border-[var(--accent)]">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-6 text-sm text-[var(--foreground)]">
+            {[ 
+                { icon: CheckCircle2, text: "Anerkannt von allen gesetzlichen Krankenkassen" },
+                { icon: ShieldCheck, text: "Alle Pflegegrade" },
+                { icon: Clock, text: "24/7 erreichbar" },
+                { icon: MapPin, text: "Seit 2025 in ...." }
+            ].map((item, idx) => (
+                <div key={idx} className="flex items-center gap-3">
+                    <item.icon className="w-5 h-5 text-[var(--primary-cta)] flex-shrink-0" />
+                    <span className="font-medium">{item.text}</span>
+                </div>
+            ))}
+        </div>
+    </div>
   </div>
 
   <div id="about" data-section="about">
@@ -147,7 +145,7 @@ export default function LandingPage() {
         { id: "m2", name: "Markus K.", role: "Intensivpflegefachkraft", imageSrc: "https://img.b2bpic.net/free-photo/smile-happiness-nurse-medical-arab-strong_1291-31.jpg?id=1240914" },
         { id: "m3", name: "Elena V.", role: "Pflegerin", imageSrc: "https://img.b2bpic.net/free-photo/portrait-smiling-nurse-looking-camera-while-standing-clinic_637285-5031.jpg?id=26143709" },
       ]}
-      title="Ihr Team in Hamburg"
+      title="Ihr Team von Pflegedienst"
       description="Erfahrene Hände für Ihre Gesundheit."
     />
   </div>
@@ -183,7 +181,7 @@ export default function LandingPage() {
           { items: [{ label: "Über uns", href: "#about" }, { label: "Leistungen", href: "#services" }] },
           { items: [{ label: "Karriere", href: "#" }, { label: "Impressum", href: "#" }] }
       ]}
-      logoText="Pflegedienst Hamburg"
+      logoText="Pflegedienst"
     />
   </div>
       </ReactLenis>
