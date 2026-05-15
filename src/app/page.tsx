@@ -59,7 +59,14 @@ export default function LandingPage() {
       buttons={[
         { text: "Erstberatung vereinbaren", href: "#contact" },
       ]}
-    />
+    >
+        <div className="flex items-center gap-1 my-4">
+            {[...Array(5)].map((_, i) => (
+                <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+            ))}
+            <span className="ml-2 text-sm font-medium text-[var(--foreground)] opacity-90">5.0 - Hervorragende Bewertungen</span>
+        </div>
+    </HeroSplitDoubleCarousel>
   </div>
 
   <div id="trust" data-section="trust" className="py-12 bg-[var(--card)]">
