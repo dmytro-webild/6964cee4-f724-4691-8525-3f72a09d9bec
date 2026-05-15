@@ -59,15 +59,7 @@ export default function LandingPage() {
             buttons={[
               { text: "Erstberatung vereinbaren", href: "#contact" },
             ]}
-          >
-            <div className="mt-8 flex items-center gap-3 bg-[var(--card)] p-4 rounded-lg border border-[var(--accent)] border-l-4 border-l-[var(--primary-cta)] w-fit">
-              <ShieldCheck className="w-6 h-6 text-[var(--primary-cta)]" />
-              <div className="flex flex-col">
-                <span className="font-bold text-[var(--foreground)]">DSGVO-konform</span>
-                <span className="text-sm text-[var(--foreground)] opacity-70">Ihre Daten bleiben in Deutschland</span>
-              </div>
-            </div>
-          </HeroSplitDoubleCarousel>
+          />
         </div>
 
         <div id="trust" data-section="trust" className="py-12 bg-[var(--card)]">
