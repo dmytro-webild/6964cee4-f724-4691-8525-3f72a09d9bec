@@ -38,7 +38,7 @@ export default function LandingPage() {
         { name: "Team", id: "#team" },
         { name: "Kontakt", id: "#contact" },
       ]}
-      brandName="Respiro Care Hamburg"
+      brandName="Pflegedienst "
     />
   </div>
 
@@ -48,12 +48,12 @@ export default function LandingPage() {
       title="Pflege, die zuhause das Leben leichter macht."
       description="Wir betreuen Menschen in Hamburg in ihrer eigenen Wohnung – mit der Ruhe, dem Respekt und der Fachkompetenz, die Familien für ihre Angehörigen suchen."
       leftCarouselItems={[
-        { imageSrc: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800&_wi=1", imageAlt: "Pflege zuhause" },
-        { imageSrc: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800", imageAlt: "Intensivpflege" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/closeup-support-hands_53876-14962.jpg?id=2769160", imageAlt: "Pflege zuhause" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/senior-couple-seaside-medium-shot_23-2149021658.jpg?id=15725657", imageAlt: "Intensivpflege" },
       ]}
       rightCarouselItems={[
-        { imageSrc: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=800&_wi=1", imageAlt: "Atmungstherapie" },
-        { imageSrc: "https://images.unsplash.com/photo-1586773860418-d37222d8dfde?auto=format&fit=crop&q=80&w=800", imageAlt: "Pflegequalität" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/closeup-elderly-hands_53876-24751.jpg?id=2892728", imageAlt: "Atmungstherapie" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/elderly-woman-with-toothy-smile_1098-14219.jpg?id=5400238", imageAlt: "Pflegequalität" },
       ]}
       tag="Intensivpflege Hamburg"
       buttons={[
@@ -88,7 +88,7 @@ export default function LandingPage() {
         { title: "Beatmungsexpertise", description: "Spezialisierte Pflege bei invasiver und nicht-invasiver Beatmung." },
         { title: "Ambulanter Fokus", description: "Pflege in der vertrauten häuslichen Umgebung in ganz Hamburg." },
       ]}
-      imageSrc="https://images.unsplash.com/photo-1579684385127-1ecd15d5bfbcc?auto=format&fit=crop&q=80&w=800"
+      imageSrc="https://img.b2bpic.net/free-photo/closeup-elderly-hands_53876-24751.jpg?id=2892728"
       mediaAnimation="slide-up"
     />
   </div>
