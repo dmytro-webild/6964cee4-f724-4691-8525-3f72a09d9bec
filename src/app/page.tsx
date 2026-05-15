@@ -99,9 +99,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
-        { id: "f1", title: "Heimbeatmung", description: "Umfassende Unterstützung bei sämtlichen Beatmungsformen.", tag: "Medizinisch", imageSrc: "https://images.unsplash.com/photo-1516574637775-80277353f86e?auto=format&fit=crop&q=80&w=800" },
-        { id: "f2", title: "24/7 Intensivbetreuung", description: "Rund-um-die-Uhr Überwachung durch spezialisierte Fachkräfte.", tag: "Sicherheit", imageSrc: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800&_wi=2" },
-        { id: "f3", title: "Individuelle Lebensqualität", description: "Wir integrieren medizinisches Know-how in Ihren persönlichen Alltag.", tag: "Lebensqualität", imageSrc: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=800&_wi=2" },
+        { id: "f1", title: "Heimbeatmung", description: "Umfassende Unterstützung bei sämtlichen Beatmungsformen.", tag: "Medizinisch", imageSrc: "https://images.unsplash.com/photo-1629904853716-f0bc54cca781?auto=format&fit=crop&q=80&w=800" },
+        { id: "f2", title: "24/7 Intensivbetreuung", description: "Rund-um-die-Uhr Überwachung durch spezialisierte Fachkräfte.", tag: "Sicherheit", imageSrc: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&q=80&w=800" },
+        { id: "f3", title: "Individuelle Lebensqualität", description: "Wir integrieren medizinisches Know-how in Ihren persönlichen Alltag.", tag: "Lebensqualität", imageSrc: "https://images.unsplash.com/photo-1589149098525-e24194be9f1f?auto=format&fit=crop&q=80&w=800" },
       ]}
       title="Unsere spezialisierten Dienstleistungen"
       description="Wir decken das gesamte Spektrum der respiratorischen Intensivpflege ab."
@@ -126,9 +126,9 @@ export default function LandingPage() {
       title="Erfolge in Zahlen"
       tag="Transparenz"
       metrics={[
-        { id: "m1", value: "15+", description: "Jahre Erfahrung" },
-        { id: "m2", value: "100%", description: "Fachpersonalquote" },
-        { id: "m3", value: "500+", description: "Erfolgreiche Pflegefälle" },
+        { id: "m1", value: "15+", description: "Jahre Erfahrung mit herzlicher Betreuung" },
+        { id: "m2", value: "100%", description: "Fachpersonal für Ihr Zuhause" },
+        { id: "m3", value: "500+", description: "Glückliche Familien unterstützt" },
       ]}
       metricsAnimation="slide-up"
     />
@@ -141,9 +141,9 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       members={[
-        { id: "m1", name: "Sarah M.", role: "Pflegedienstleitung", imageSrc: "https://images.unsplash.com/photo-1559839734-2b71ea197ea2?auto=format&fit=crop&q=80&w=800" },
+        { id: "m1", name: "Sarah M.", role: "Pflegedienstleitung", imageSrc: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800" },
         { id: "m2", name: "Markus K.", role: "Intensivpflegefachkraft", imageSrc: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=800" },
-        { id: "m3", name: "Elena V.", role: "Pflegerin", imageSrc: "https://images.unsplash.com/photo-1606016153323-575a22d3e4e9?auto=format&fit=crop&q=80&w=800" },
+        { id: "m3", name: "Elena V.", role: "Pflegerin", imageSrc: "https://images.unsplash.com/photo-1623847668630-10850a583e74?auto=format&fit=crop&q=80&w=800" },
       ]}
       title="Ihr Team in Hamburg"
       description="Erfahrene Hände für Ihre Gesundheit."
@@ -156,8 +156,8 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       testimonials={[
-        { id: "t1", name: "Familie Schmidt", handle: "@hamburg", testimonial: "Die Pflege zuhause war eine enorme Erleichterung für uns. Sehr professionell und warmherzig.", imageSrc: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=800" },
-        { id: "t2", name: "Thomas L.", handle: "@patient", testimonial: "Ich fühle mich bei Respiro Care in besten Händen. Das Team ist immer da, wenn man es braucht.", imageSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800" }
+        { id: "t1", name: "Familie Schmidt", handle: "@hamburg", testimonial: "Die Pflege zuhause war eine enorme Erleichterung für uns. Sehr professionell und warmherzig.", imageSrc: "https://images.unsplash.com/photo-1620336637308-410787e97f6c?auto=format&fit=crop&q=80&w=800" },
+        { id: "t2", name: "Thomas L.", handle: "@patient", testimonial: "Ich fühle mich bei Respiro Care in besten Händen. Das Team ist immer da, wenn man es braucht.", imageSrc: "https://images.unsplash.com/photo-1577327315537-88951307b220?auto=format&fit=crop&q=80&w=800" }
       ]}
       title="Das sagen unsere Patienten"
       description="Vertrauen durch erstklassige Pflege."
