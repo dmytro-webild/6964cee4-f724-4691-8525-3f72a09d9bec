@@ -83,7 +83,7 @@ export default function LandingPage() {
             <SplitAbout
             textboxLayout="split"
             useInvertedBackground={false}
-            title="Ihre Experten für respiratorische Pflege"
+            title="Ihre Experten für ambulante Intensivpflege"
             description="Seit Jahren in Hamburg tätig, bieten wir spezialisierte ambulante und 1:1 Intensivpflegeleistungen. Unser Team aus hochqualifizierten Pflegefachkräften sorgt für medizinische Sicherheit und höchste Lebensqualität."
             bulletPoints={[
               { title: "1:1 Intensivpflege", description: "Maximale Aufmerksamkeit und individuelle Betreuung rund um die Uhr." },
