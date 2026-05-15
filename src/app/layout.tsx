@@ -6,12 +6,13 @@ import "@/lib/gsap-setup";
 import { ServiceWrapper } from "@/components/ServiceWrapper";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Poppins } from "next/font/google";
+import Tag from "@/tag/Tag";
 
 
 
 export const metadata: Metadata = {
-  title: 'Respiro Care Hamburg | 1:1 Intensiv- & respiratorische Pflege',
-  description: 'Spezialisierte ambulante Intensivpflege in Hamburg. Wir bieten 1:1 Betreuung für Patienten mit respiratorischem Bedarf.',
+  title: "Demo Pflegedienstseite | 1:1 Intensiv- & Ambulante Pflege | Ceociety",
+  description: "Spezialisierte ambulante Intensivpflege in Hamburg. Wir bieten auch 1:1 Betreuung. ",
   openGraph: {
     "siteName": "Respiro Care Hamburg",
     "type": "website"
@@ -40,7 +41,8 @@ export default function RootLayout({
                   __html: `${getVisualEditScript()}`
               }}
           />
-        </body>
+        <Tag />
+</body>
       </ServiceWrapper>
     </html>
   );
