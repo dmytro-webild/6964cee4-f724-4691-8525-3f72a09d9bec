@@ -48,11 +48,11 @@ export default function LandingPage() {
       title="Pflege, die zuhause das Leben leichter macht."
       description="Wir betreuen Menschen in Hamburg in ihrer eigenen Wohnung – mit der Ruhe, dem Respekt und der Fachkompetenz, die Familien für ihre Angehörigen suchen."
       leftCarouselItems={[
-        { imageSrc: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800", imageAlt: "Pflege zuhause" },
+        { imageSrc: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800&_wi=1", imageAlt: "Pflege zuhause" },
         { imageSrc: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800", imageAlt: "Intensivpflege" },
       ]}
       rightCarouselItems={[
-        { imageSrc: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=800", imageAlt: "Atmungstherapie" },
+        { imageSrc: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=800&_wi=1", imageAlt: "Atmungstherapie" },
         { imageSrc: "https://images.unsplash.com/photo-1586773860418-d37222d8dfde?auto=format&fit=crop&q=80&w=800", imageAlt: "Pflegequalität" },
       ]}
       tag="Intensivpflege Hamburg"
@@ -100,8 +100,8 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         { id: "f1", title: "Heimbeatmung", description: "Umfassende Unterstützung bei sämtlichen Beatmungsformen.", tag: "Medizinisch", imageSrc: "https://images.unsplash.com/photo-1516574637775-80277353f86e?auto=format&fit=crop&q=80&w=800" },
-        { id: "f2", title: "24/7 Intensivbetreuung", description: "Rund-um-die-Uhr Überwachung durch spezialisierte Fachkräfte.", tag: "Sicherheit", imageSrc: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800" },
-        { id: "f3", title: "Individuelle Lebensqualität", description: "Wir integrieren medizinisches Know-how in Ihren persönlichen Alltag.", tag: "Lebensqualität", imageSrc: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=800" },
+        { id: "f2", title: "24/7 Intensivbetreuung", description: "Rund-um-die-Uhr Überwachung durch spezialisierte Fachkräfte.", tag: "Sicherheit", imageSrc: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800&_wi=2" },
+        { id: "f3", title: "Individuelle Lebensqualität", description: "Wir integrieren medizinisches Know-how in Ihren persönlichen Alltag.", tag: "Lebensqualität", imageSrc: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=800&_wi=2" },
       ]}
       title="Unsere spezialisierten Dienstleistungen"
       description="Wir decken das gesamte Spektrum der respiratorischen Intensivpflege ab."
