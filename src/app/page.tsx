@@ -140,7 +140,11 @@ export default function LandingPage() {
       textboxLayout="default"
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
-      members={[]}
+      members={[
+        { id: "m1", name: "Sarah M.", role: "Pflegedienstleitung", imageSrc: "https://images.unsplash.com/photo-1559839734-2b71ea197ea2?auto=format&fit=crop&q=80&w=800" },
+        { id: "m2", name: "Markus K.", role: "Intensivpflegefachkraft", imageSrc: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=800" },
+        { id: "m3", name: "Elena V.", role: "Pflegerin", imageSrc: "https://images.unsplash.com/photo-1606016153323-575a22d3e4e9?auto=format&fit=crop&q=80&w=800" },
+      ]}
       title="Ihr Team in Hamburg"
       description="Erfahrene Hände für Ihre Gesundheit."
     />
@@ -151,7 +155,10 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={false}
-      testimonials={[]}
+      testimonials={[
+        { id: "t1", name: "Familie Schmidt", handle: "@hamburg", testimonial: "Die Pflege zuhause war eine enorme Erleichterung für uns. Sehr professionell und warmherzig.", imageSrc: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=800" },
+        { id: "t2", name: "Thomas L.", handle: "@patient", testimonial: "Ich fühle mich bei Respiro Care in besten Händen. Das Team ist immer da, wenn man es braucht.", imageSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800" }
+      ]}
       title="Das sagen unsere Patienten"
       description="Vertrauen durch erstklassige Pflege."
     />
@@ -170,7 +177,10 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
-      columns={[]}
+      columns={[ 
+          { items: [{ label: "Über uns", href: "#about" }, { label: "Leistungen", href: "#services" }] },
+          { items: [{ label: "Karriere", href: "#" }, { label: "Impressum", href: "#" }] }
+      ]}
       logoText="Respiro Care Hamburg"
     />
   </div>
