@@ -46,7 +46,7 @@ export default function LandingPage() {
             <HeroSplitDoubleCarousel
             background={{ variant: "gradient-bars" }}
             title="Pflege, die zuhause das Leben leichter macht."
-            description="Wir betreuen Menschen in Hamburg in ihrer eigenen Wohnung – mit der Ruhe, dem Respekt und der Fachkompetenz, die Familien für ihre Angehörigen suchen."
+            description="Wir betreuen Menschen in ihrer eigenen Wohnung – mit der Ruhe, dem Respekt und der Fachkompetenz, die Familien für ihre Angehörigen suchen."
             leftCarouselItems={[
               { imageSrc: "https://img.b2bpic.net/free-photo/closeup-support-hands_53876-14962.jpg?id=2769160", imageAlt: "Pflege zuhause" },
               { imageSrc: "https://img.b2bpic.net/premium-photo/smiling-nurse-supporting-elderly-patient-hospital_495423-69918.jpg?id=367683086", imageAlt: "Intensivpflege" },
@@ -55,7 +55,7 @@ export default function LandingPage() {
               { imageSrc: "https://img.b2bpic.net/premium-photo/holding-hands-nurse-senior-woman-wheelchair-with-help-support-health-wellness_1176719-1023.jpg?id=237862665", imageAlt: "Atmungstherapie" },
               { imageSrc: "https://img.b2bpic.net/free-photo/african-social-worker-taking-care-senior-woman_23-2149031346.jpg?id=16137216", imageAlt: "Pflegequalität" },
             ]}
-            tag="Intensivpflege {hier kann Ihre Stadt stehen}"
+            tag="Ambulante Intensivpflege"
             buttons={[
               { text: "Erstberatung vereinbaren", href: "#contact" },
             ]}
