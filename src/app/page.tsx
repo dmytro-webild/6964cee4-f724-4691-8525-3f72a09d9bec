@@ -8,11 +8,10 @@ import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis'
 import HeroSplitDoubleCarousel from '@/components/sections/hero/HeroSplitDoubleCarousel';
 import MetricCardFourteen from '@/components/sections/metrics/MetricCardFourteen';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
-import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import TeamCardSix from '@/components/sections/team/TeamCardSix';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
-import { Star, HandHeart, Ear, Users, FileCheck, ShieldCheck } from "lucide-react";
+import { HandHeart, Ear, Users, FileCheck } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -108,18 +107,6 @@ export default function LandingPage() {
             ]}
             title="Unsere spezialisierten Dienstleistungen"
             description="Wir decken das gesamte Spektrum der respiratorischen Intensivpflege ab."
-          />
-        </div>
-
-        <div id="products" data-section="products">
-            <ProductCardFour
-            animationType="slide-up"
-            textboxLayout="default"
-            gridVariant="uniform-all-items-equal"
-            useInvertedBackground={false}
-            products={[]}
-            title="Technik für den Alltag"
-            description="Modernste Ausstattung für ein würdevolles Leben zuhause."
           />
         </div>
 
